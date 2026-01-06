@@ -28,6 +28,7 @@ import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import Reminders from "@/pages/Reminders";
+import FirstAidGuide from '@/components/FirstAidGuide';
 
 
 
@@ -135,6 +136,7 @@ const App = () => {
                       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                       <Route path="/terms-and-conditions" element={<TermsConditions />} />
                       <Route path="/reminders" element={<Reminders />} />
+                      <Route path="/first-aid-guide" element={<FirstAidGuide />} />
                     </Routes>
                     <Footer />
                     {/* NEW: Add the floating scroll to top button */}
